@@ -4,7 +4,7 @@ import './login-form.css'
 function LoginForm() {
     return (
         <div className="login-box">
-            <h2>Login</h2>
+            <h2>Login to Maestro</h2>
             <form>
                 <div className="user-box">
                     <input 
@@ -18,7 +18,7 @@ function LoginForm() {
                         type="password"
                         required autoComplete='off'
                     />
-                    <label>Senha</label>
+                    <label>Password</label>
                 </div>
                 <div className="buttons">
                     <a href="#">
@@ -26,11 +26,11 @@ function LoginForm() {
                         <span></span>
                         <span></span>
                         <span></span>
-                        Entrar
+                        Log In
                     </a>
                 </div>
                 <div className="change">
-                    <p>Não tem conta ? <a href="#" className="changeButton">Crie uma conta</a></p>
+                    <p>No account ? <a href="#" className="changeButton">Sign Up</a></p>
                 </div>
                 <div className="logResponse"></div>
             </form>

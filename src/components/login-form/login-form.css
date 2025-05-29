@@ -175,6 +175,10 @@
     display: grid;
 }
 
+.change {
+  display: none;
+}
+
 p {
     color: aliceblue;
     font: normal 11pt Arial;
